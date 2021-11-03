@@ -4,13 +4,13 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        fadeOut: "fadeOut 4s cubic-bezier(0.5,0,1,-0.25) forwards",
+        fadeOut: "fadeOut 3s cubic-bezier(0.5,0,1,-0.25) forwards",
         fadeInP: "fadeInP 2s ease-in forwards",
         fadeInT: "fadeInT 2s ease-in forwards",
       },
       keyframes: {
         fadeOut: {
-          to: { transform: "translateY(-70px)" },
+          to: { transform: "translateY(-100px)" },
         },
         fadeInP: {
           "0%": { transform: "translateX(300px)" },
