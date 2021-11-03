@@ -3,7 +3,7 @@ import {
   AiOutlineApple,
   AiOutlineRise,
   AiOutlineSend,
-  AiOutlineSketch,
+  AiFillGithub,
 } from "react-icons/ai";
 
 export default function Navbar() {
@@ -47,13 +47,13 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="https://diamondanddesign.com/"
+              href="https://github.com/RanjDev/First-React-Tailwind"
               className="text-2xl sm:text-3xl lg:text-4xl transition-all duration-300 hover:text-purple-100 hover:text-xl sm:hover:text-2xl lg:hover:text-3xl
               "
               target="_blank"
               rel="noreferrer"
             >
-              <AiOutlineSketch />
+              <AiFillGithub />
             </a>
           </li>
         </ul>
