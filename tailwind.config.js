@@ -5,8 +5,8 @@ module.exports = {
     extend: {
       animation: {
         fadeOut: "fadeOut 3s cubic-bezier(0.5,0,1,-0.25) forwards",
-        fadeInP: "fadeInP 2s ease-in forwards",
-        fadeInT: "fadeInT 2s ease-in forwards",
+        fadeInP: "fadeInP 2s ease-in-out forwards",
+        fadeInT: "fadeInT 2s ease-in-out forwards",
       },
       keyframes: {
         fadeOut: {

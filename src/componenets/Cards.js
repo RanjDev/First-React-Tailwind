@@ -25,7 +25,7 @@ export default function Cards() {
     },
   ];
   return (
-    <div className="p-4 m-auto flex flex-row ">
+    <div className="p-4 m-auto flex flex-col sm:flex-row sm:flex-wrap">
       {iPhoneInfo.map((info) => {
         return (
           <Card model={info.model} desc={info.desc} imgSrc={info.imgSrc} />
